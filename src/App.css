@@ -1,7 +1,14 @@
 .App {
   text-align: center;
+  /* display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto; */
 }
-
+.grid-area{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

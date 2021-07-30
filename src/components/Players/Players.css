@@ -1,0 +1,15 @@
+.players{
+    /* /* border: 1px solid tomato; */
+    margin: 20px auto; 
+    width: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    box-shadow: 5px 2px 5px grey;
+    background-color: #e5e5e565;
+}
+.players img{
+    width: 200px;
+}
+
